@@ -11,6 +11,7 @@ import Profile from "./pages/Profile";
 import AccessTokenInput from "./pages/AccessTokenInput";
 import AdminDashboard from "./pages/AdminDashboard";
 import Layout from "./Layout"; // Adjust the import path if necessary
+import MyResults from "./pages/MyResults";
 
 function App() {
   return (
