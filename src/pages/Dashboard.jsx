@@ -22,7 +22,7 @@ import EventNoteIcon from "@mui/icons-material/EventNote";
 import PlayCircleOutlineIcon from "@mui/icons-material/PlayCircleOutline";
 import Swal from "sweetalert2";
 import theme from "../theme";
-import kisikisiPDF from "/kisikisi_aul.pdf"; // Path relatif ke folder `public`
+import kisikisiPDF from "/kisi-kisi-ilma.pdf"; // Path relatif ke folder `public`
 
 // Styled Components
 const StyledPaper = styled(Paper)(({ theme }) => ({

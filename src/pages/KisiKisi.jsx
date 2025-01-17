@@ -3,7 +3,7 @@ import { Document, Page } from "react-pdf";
 import { Button, Box, Container, Typography } from "@mui/material";
 import { ThemeProvider } from "@mui/material/styles";
 import theme from "../theme";
-import kisikisiPDF from "/kisikisi_aul.pdf"; // Path relatif ke folder `public`
+import kisikisiPDF from "/kisi-kisi-ilma.pdf"; // Path relatif ke folder `public`
 
 const PDFReader = () => {
   const [numPages, setNumPages] = useState(null);
@@ -17,7 +17,7 @@ const PDFReader = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
     link.href = kisikisiPDF; // Gunakan URL yang benar
-    link.download = "kisikisi_aul.pdf";
+    link.download = "kisi-kisi-ilma.pdf";
     link.click();
   };
 
