@@ -51,14 +51,14 @@ const Dashboard = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
     link.href = kisikisiPDF; // Gunakan URL yang benar
-    link.download = "kisikisi_aul.pdf";
+    link.download = "kisi-kisi-ilma.pdf";
     link.click();
   };
 
   const mulaiUjian = () => {
     Swal.fire({
       title: "Peringatan!",
-      text: "Ujian hanya dapat dikerjakan 1 kali. Fokuslah saat mengerjakannya.",
+      text: "Ujian hanya dapat dikerjakan 1 kali. Meskipun Anda mengerjakannya berkali-kali, nilai pertama yang akan disimpan. Fokuslah saat mengerjakannya.",
       icon: "warning",
       showCancelButton: true,
       confirmButtonText: "Mulai Ujian",
