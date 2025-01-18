@@ -51,7 +51,7 @@ const Dashboard = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
     link.href = kisikisiPDF; // Gunakan URL yang benar
-    link.download = "kisi-kisi-ilma.pdf";
+    link.download = "kisi-kisi.pdf";
     link.click();
   };
 
